@@ -1,0 +1,44 @@
+root       289  0.0  0.0  25248   244 ?        S    13:40   0:00 upstart-udev-bridge --daemon
+root       296  0.0  0.1  45128  4356 ?        Ss   13:40   0:00 /lib/systemd/systemd-udevd --daemon
+root       512  0.0  0.0  25184   276 ?        S    13:40   0:00 upstart-socket-bridge --daemon
+root       678  0.0  0.0  25200   288 ?        S    13:40   0:00 upstart-file-bridge --daemon
+message+   710  0.0  0.1  44352  4640 ?        Ss   13:40   0:12 dbus-daemon --system --fork
+avahi      772  0.2  0.1  40976  3976 ?        S    13:40   1:34 avahi-daemon: running [sai-2.local]
+avahi      797  0.0  0.0  40064   324 ?        S    13:40   0:00 avahi-daemon: chroot helper
+root       893  0.0  0.2 163456  8108 ?        Ssl  13:40   0:01 thermald --no-daemon --dbus-enable
+root      1115  0.0  0.1 280280  6624 ?        Sl   13:40   0:11 /usr/lib/accountsservice/accounts-daemon
+rtkit     1295  0.0  0.0 178816  2840 ?        SNl  13:40   0:00 /usr/lib/rtkit/rtkit-daemon
+lightdm   1594  0.0  0.1  60448  4500 ?        S    13:40   0:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+sai       1676  0.0  0.2 292400  9828 ?        Sl   13:40   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+sai       1747  0.0  0.0  42724  2912 ?        Ss   13:40   0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+sai       1765  0.0  0.0  32296   256 ?        S    13:40   0:00 upstart-udev-bridge --daemon --user
+sai       1775  0.0  0.1  43844  4384 ?        Ss   13:40   0:05 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-428x2BDEQE
+sai       1806  0.0  0.2 354324 10228 ?        Ssl  13:40   0:24 /usr/bin/ibus-daemon --daemonize --xim
+sai       1842  0.0  0.3 376668 13936 ?        Sl   13:40   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+sai       1847  0.0  0.0  40704   372 ?        S    13:40   0:00 upstart-file-bridge --daemon --user
+sai       1851  0.0  0.0  32232   312 ?        S    13:40   0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+sai       1854  0.0  0.0  32232   316 ?        S    13:40   0:01 upstart-dbus-bridge --daemon --session --user --bus-name session
+sai       1858  0.0  0.7 931124 31628 ?        Ssl  13:40   0:01 /usr/lib/unity-settings-daemon/unity-settings-daemon
+sai       1871  0.0  0.0  42852  3880 ?        S    13:40   0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+sai       1914  0.0  0.0  22364  2528 ?        S    13:40   0:00 syndaemon -i 1.0 -t -K -R
+sai       1952  0.0  0.5 573280 20372 ?        Sl   13:40   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+sai       1958  0.0  0.7 515884 29704 ?        Sl   13:40   0:04 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+sai       2233  0.0  0.2 412368  9156 ?        Sl   13:41   0:00 /usr/bin/zeitgeist-daemon
+sai       8509  0.0  0.0  13696  2148 pts/14   S+   22:26   0:00 grep --color=auto daemon
+root         3  0.0  0.0      0     0 ?        S    13:39   0:00 [ksoftirqd/0]
+root        15  0.0  0.0      0     0 ?        S    13:39   0:00 [ksoftirqd/1]
+root        22  0.0  0.0      0     0 ?        S    13:39   0:00 [ksoftirqd/2]
+root        29  0.0  0.0      0     0 ?        S    13:39   0:00 [ksoftirqd/3]
+root       296  0.0  0.1  45128  4356 ?        Ss   13:40   0:00 /lib/systemd/systemd-udevd --daemon
+root      1090  0.0  0.0  28672  3176 ?        S    13:40   0:00 /lib/systemd/systemd-logind
+nobody    1342  0.0  0.0  52284  3844 ?        S    13:40   0:02 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+colord    1392  0.0  0.3 298112 12392 ?        Sl   13:40   0:00 /usr/lib/colord/colord
+sai       1787  0.0  0.2  88176  8816 ?        Ss   13:40   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+sai       1856  0.0  0.9 638772 35992 ?        Ssl  13:40   0:01 /usr/lib/x86_64-linux-gnu/hud/hud-service
+sai       2006  0.0  0.7 723700 27948 ?        Ssl  13:41   0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+sai       2007  0.0  0.3 475524 12912 ?        Ssl  13:41   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+sai       2134  0.0  0.4 850772 17240 ?        Sl   13:41   0:02 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx2099x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/2099/2
+sai       2146  0.0  0.4 1031752 16968 ?       Sl   13:41   0:02 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx2099x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/2099/3
+sai       2165  0.0  0.4 769440 19116 ?        Sl   13:41   0:03 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx2144x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/2144/2
+root      5846  0.0  0.2  23452 10208 ?        S    16:39   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/sendsigs.omit.d/network-manager.dhclient-enp2s0.pid -lf /var/lib/NetworkManager/dhclient-339cf595-2e07-443a-a1d6-f61f80220125-enp2s0.lease -cf /var/lib/NetworkManager/dhclient-enp2s0.conf enp2s0
+sai       8524  0.0  0.0  13696  2172 pts/14   S+   22:27   0:00 grep --color=auto d/
